@@ -1,0 +1,10 @@
+time from="from".year:year
+time to="to".year:year
+time from="after".words.year:year
+lifetime,lifetimes="\(".date:birthdate.date:death date."\)"
+title,title=phrase:german."\(".phrase:english."\)"
+completion,completions="completed".words.year:year
+birthplace="born".Words
+school,schools=time from.time to."attended";"admitted".Words:name
+school,schools=time from."attended";"admitted".Words:name.time to,completion
+school,schools="admitted".Words:name."in".year:year

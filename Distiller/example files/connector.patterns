@@ -1,0 +1,7 @@
+numeric,numerics=\d+([\-\.\,]\d+)*
+decimal,decimales=(\d{1,3}[.,]?)+\-?;;\d+[,.]\d+
+WORD,WORDS=\b\p{Lu}+([\-\p{Lu}']+)?\b
+Word,Words=\b\p{Lu}[\p{Ll}']*(\-?\p{Lu}[\p{Ll}']*)?\b
+word,words=\b[\p{L}\p{N}][\p{L}\p{N}']*(\-[\p{L}\p{N}][\p{L}\p{N}'\-]*)?\b
+phrase,phrases=\b["'\p{L}\p{N}]*([, /\-"'\p{L}\p{N}]*)?\b
+year,years=[1-2]\d{3}(\-\d{1,2})?

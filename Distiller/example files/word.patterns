@@ -1,0 +1,9 @@
+>>>authors
+birthplace="born".Words
+author,authors=Words:name.lifetime."german"
+move,moves=date."move".words:destination
+death,deaths=words."dies";"died".?words,date
+play,plays="production";"premiere";"drama";"works".titles
+#school,schools=time from.time to."attended";"admitted".Words:name
+#school,schools=time from."attended";"admitted".Words:name.time to,completion
+#school,schools="admitted".Words:name."in".year:year
